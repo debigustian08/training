@@ -17,10 +17,6 @@ client = MongoClient(MONGODB_URI)
 
 db = client[DB_NAME]
 
-
-client = MongoClient('mongodb+srv://debigustian12:debi1208@cluster0.em8kmpx.mongodb.net/?retryWrites=true&w=majority')
-db = client.dblxmovie
-
 app = Flask(__name__)
 
 @app.route('/')
